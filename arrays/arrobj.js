@@ -113,7 +113,34 @@ let score4=400
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 //^^^^^^^^^^^^^^^   array finished with chai aur code ^^^^^^^^^^^^^^^^^
 
+let marks=[17,27,37,47,57,67,87,98]
+// console.log(marks.length)  // length of array [last index + 1 ]
 
+// element on that index 
+// console.log (marks[index])
+// console.log (marks[0])
+
+// ***** change or replace element 
+marks[0]=100
+// console.log(marks)
+
+//********* looping on array  */
+
+let loparr =[101,102,103,104,105,105,107]
+// for(let i=0;i<loparr.length;i++){
+//     console.log (loparr[i])
+//}
+
+// *** for of loop [working properly ]
+// for (lop of loparr ){
+//     console.log (lop)
+// }
+// *******
+// console.log (loparr.toString())
+// not change main arr ,it log array as string (text)
+// console.log (loparr)
+
+// &&&&&&&&&&&&&&&&&&&&&&&  Allmost done array in js &&&&&&&&&&&&&&&&&&&&&&&&&&
 
 
 
